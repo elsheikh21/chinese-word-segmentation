@@ -1,0 +1,17 @@
+max_length: 70
+batch_size: 64
+epochs: 5
+
+num_cells: 256
+
+uni_embedding_size: 64
+bi_embedding_size: 64
+
+dropout: 0.2
+rec_dropout: 0.2
+
+init_lr: 4e-3
+momentum: 0.95
+nesterov: True
+
+num_outputs: 4
